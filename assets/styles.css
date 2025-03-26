@@ -20,7 +20,7 @@ body {
     padding: 30px;
 }
 
-/* En-tête avec photo */
+
 .header {
     display: flex;
     align-items: center;
@@ -55,7 +55,7 @@ body {
     margin-bottom: 10px;
 }
 
-/* Sections du CV */
+
 .section {
     margin-bottom: 25px;
 }
@@ -101,7 +101,7 @@ body {
     border-bottom: 1px solid #eee;
 }
 
-/* Pied de page */
+
 .footer {
     text-align: center;
     margin-top: 30px;
@@ -111,7 +111,7 @@ body {
     font-size: 14px;
 }
 
-/* Media Queries pour le responsive */
+
 @media (min-width: 680px) {
     .header {
         flex-direction: row;
