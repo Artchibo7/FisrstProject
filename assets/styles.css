@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #b9aaaa;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+/* En-tête avec photo */
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 20px;
+}
+
+.photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #3498db;
+    margin-right: 30px;
+}
+
+.header-text {
+    flex: 1;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 18px;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+/* Sections du CV */
+.section {
+    margin-bottom: 25px;
+}
+
+.section-title {
+    font-size: 20px;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.item {
+    margin-bottom: 15px;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.item-title {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.item-date {
+    color: #7f8c8d;
+}
+
+.item-subtitle {
+    font-style: italic;
+    color: #3498db;
+    margin-bottom: 5px;
+}
+*.Box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eee;
+}
+
+/* Pied de page */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    color: #7f8c8d;
+    font-size: 14px;
+}
